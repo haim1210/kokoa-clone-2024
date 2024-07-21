@@ -1,0 +1,137 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icons__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icons i {
+    font-size : 35px;  
+}
+
+.find-icons__icons span {
+    margin-top: 15px;
+}
+
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    margin-top : 25px;
+    padding : 25px 0px;
+}
+
+.recommended-friends__title {
+    font-size : 15px;
+    color : rgba(0,0,0,0.6);
+}
+
+.recommended-friends span {
+    margin : 100px 0px;
+    display: flex;
+    justify-content: center;
+    font-size : 15px;
+    color : rgba(0,0,0,0.6);    
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    font-size : 15px;
+    color : rgba(0,0,0,0.6);
+    padding-top : 25px;
+    padding-bottom: 10px;
+}
+
+.open-chat__header span {
+    opacity : 0.5;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    padding-bottom : 15px;
+     border-bottom: var(--main-border);
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.open-post__hasgtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.open-post__members img {
+    width : 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__members-count {
+    font-size : 14px;
+    opacity: 0.5;
+}
+
+.open-post__members .divider {
+    width : 1px;
+    height: 12px;
+    background-color: rgba(0,0,0,0.6);
+    margin : 0 7px;
+}
+
+.open-post__members-status {
+    font-size : 14px;
+    color : hotpink;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.open-post_column__heart {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    text-align: center;    padding : 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position : absolute;
+    bottom : 5px;
+    right : 5px;
+    font-size : 12px;
+}
+
+.open-post_column__heart span {
+    margin : 1px 2px;
+}
+
+.setting_notification_dot {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
