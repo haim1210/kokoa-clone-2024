@@ -1,0 +1,14 @@
+.settings-title {
+    display: flex;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+.settings-title__icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.settings-title span {
+    font-size : 20px;
+}

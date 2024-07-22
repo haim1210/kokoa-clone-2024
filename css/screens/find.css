@@ -125,13 +125,3 @@
 .open-post_column__heart span {
     margin : 1px 2px;
 }
-
-.setting_notification_dot {
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 4px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-}

@@ -1,12 +1,16 @@
 .suggestions-icons {
     display: flex;
-    justify-content: space-between;
+    flex-direction: warp;
 }
 
 .suggestions-icons__icons {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .suggestions-icons__icons img {
@@ -17,22 +21,26 @@
 }
 
 .suggestions-icons__icons span {
-    font-size : 14px;
+    font-size : 12px;
     opacity: 0.8;
 }
 
 
 .more-icons {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .more-icons__icons {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .more-icons__icons i {
@@ -41,13 +49,13 @@
 }
 
 .more-icons__icons span {
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.9;
 }
 
 .suggestions {
     border-top: var(--main-border);
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .suggestions__header {
