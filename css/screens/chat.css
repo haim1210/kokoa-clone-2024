@@ -1,0 +1,90 @@
+#chat-screen {
+    background-color: #FFF5E4;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMDdfMTU0%2FMDAxNjcwNDIzNDU1MjQx.ppYhIOmNp-hSpiTt61c1T-KXiEuZ-8ceq6JVMkA-cV8g.bk18_AIYXYA6JLgmwQWaK36kytWOJS9ek9Cai6CkkR4g.JPEG.joumeet19%2F%25C0%25DC%25B8%25C1%25B7%25E7%25C7%25C7_%25BB%25A9%25B2%25C4_%25B9%25E8%25B0%25E6%25C8%25AD%25B8%25E9_%25BC%25BC%25B7%25CE%25C7%25FC_%25BF%25BB%25B7%25CE%25BF%25EC.jpg&type=sc960_832");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    height: 1000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+    top : 0;
+    position: fixed;
+    width: 100%;
+    box-sizing : border-box;
+    background-color: #FFF5E4;
+}
+
+#chat-screen .alt-header {
+    top: 20px;
+}
+
+.main-chat {
+    margin-top : 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__time {
+    color : white;
+    background-color: #F3B5B7;
+    padding : 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.message-row {
+    width : 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.message-row img {
+    width : 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-right: 10px;
+}
+
+.message__author {
+    opacity: 0.9;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.message__text {
+    background-color: white;
+    border-radius: 30px;
+    padding : 10px;
+    border-top-left-radius : 0px;
+}
+
+.message__time {
+    font-size : 10px;
+    opacity: 0.9;
+    margin-left: 5px;
+}
+
+.message__title {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message-row--me {
+    justify-content: flex-end;
+}
+
+.message-row--me .message__text {
+    background-color: #F3B5B7;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 30px;
+    margin-right : 0px;
+    margin-left : 5px;
+}
+
+.message-row--me .message__title {
+    flex-direction: row-reverse;
+}
