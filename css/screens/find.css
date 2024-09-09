@@ -125,3 +125,23 @@
 .open-post_column__heart span {
     margin : 1px 2px;
 }
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.1);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post_column__heart:hover span {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
